@@ -2,11 +2,11 @@
 
 #include <Arduino.h>
 
-#include "arduino_secrets.h"
-#include "src/motor-driver.hpp"
-#include "src/wifi-module.hpp"
-#include "src/http-server.hpp"
+#include "src/arduino_secrets.hpp"
 #include "src/debug.hpp"
+#include "src/http-server.hpp"
+#include "src/wifi-module.hpp"
+#include "src/motor-driver.hpp"
 
 using namespace falven::ad;
 

@@ -1,0 +1,8 @@
+{
+    "board": "arduino:samd:mkrwifi1010",
+    "sketch": "ed-irrigation.ino",
+    "arduino.logLevel": "verbose",
+    "output": "./build",
+    "arduino.defaultBaudRate": 9600,
+    "port": "COM3"
+}

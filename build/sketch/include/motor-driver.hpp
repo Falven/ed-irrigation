@@ -1,7 +1,8 @@
+#line 1 "c:\\source\\repos\\ed-irrigation\\include\\motor-driver.hpp"
 // "Copyright 2021 Francisco Aguilera"
 
-#ifndef SRC_MOTOR_DRIVER_HPP_
-#define SRC_MOTOR_DRIVER_HPP_
+#ifndef INCLUDE_MOTOR_DRIVER_HPP_
+#define INCLUDE_MOTOR_DRIVER_HPP_
 
 #include <Arduino.h>
 
@@ -81,4 +82,4 @@ class MotorDriver {
 }  // namespace ad
 }  // namespace falven
 
-#endif  // SRC_MOTOR_DRIVER_HPP_
+#endif  // INCLUDE_MOTOR_DRIVER_HPP_

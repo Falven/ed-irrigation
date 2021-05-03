@@ -1,7 +1,8 @@
+#line 1 "c:\\source\\repos\\ed-irrigation\\src\\debug.hpp"
 // "Copyright 2021 Francisco Aguilera"
 
-#ifndef SRC_DEBUG_HPP_
-#define SRC_DEBUG_HPP_
+#ifndef INCLUDE_DEBUG_HPP_
+#define INCLUDE_DEBUG_HPP_
 
 #define DEBUG
 // #define TEST

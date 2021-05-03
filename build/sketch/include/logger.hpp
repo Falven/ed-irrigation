@@ -1,18 +1,19 @@
+#line 1 "c:\\source\\repos\\ed-irrigation\\include\\logger.hpp"
 // "Copyright 2021 Francisco Aguilera"
 
-#ifndef SRC_LOGGER_HPP_
-#define SRC_LOGGER_HPP_
+#ifndef INCLUDE_LOGGER_HPP_
+#define INCLUDE_LOGGER_HPP_
 
 #include <USB/USBAPI.h>
-#include <oprintstream.hpp>
-#include <boost_1_76_0.h>
 #include <boost/utility/string_view.hpp>
+#include <boost_1_76_0.h>
+#include <oprintstream.hpp>
 
 namespace falven {
 namespace ad {
 
 class Logger : public OPrintStream<Logger> {
- public:
+public:
   Logger(USBDeviceClass &usb) : OPrintStream(usb) {}
   ~Logger() override = default;
 
@@ -37,7 +38,7 @@ class Logger : public OPrintStream<Logger> {
   using OPrintStream<Logger>::operator<<;
 };
 
-}  // namespace ad
-}  // namespace falven
+} // namespace ad
+} // namespace falven
 
-#endif  // SRC_LOGGER_HPP_
+#endif // INCLUDE_LOGGER_HPP_

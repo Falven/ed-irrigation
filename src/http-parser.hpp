@@ -1,7 +1,7 @@
 // "Copyright 2021 Francisco Aguilera"
 
-#ifndef SRC_HTTP_PARSER_HPP_
-#define SRC_HTTP_PARSER_HPP_
+#ifndef INCLUDE_HTTP_PARSER_HPP_
+#define INCLUDE_HTTP_PARSER_HPP_
 
 #include <functional>
 #include <vector>
@@ -54,4 +54,4 @@ class HttpParser {
 }  // namespace ad
 }  // namespace falven
 
-#endif  // SRC_HTTP_PARSER_HPP_
+#endif  // INCLUDE_HTTP_PARSER_HPP_

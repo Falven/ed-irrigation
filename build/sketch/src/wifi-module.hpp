@@ -1,3 +1,4 @@
+#line 1 "c:\\source\\repos\\ed-irrigation\\src\\wifi-module.hpp"
 // "Copyright 2021 Francisco Aguilera"
 
 #ifndef SRC_WIFI_MODULE_HPP_
@@ -19,8 +20,8 @@ class WifiModule {
  public:
   static const uint32_t kDefaultConnectionDelay = 10000UL;
 
-  WifiModule(char *ssid, char *pass, char *host_name,
-             uint32_t connection_delay = kDefaultConnectionDelay);
+  WifiModule(const char *ssid, const char *pass, const char *host_name,
+             const uint32_t connection_delay = kDefaultConnectionDelay);
 
   void Configure();
   void Connect();
