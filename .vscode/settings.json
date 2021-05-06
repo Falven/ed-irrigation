@@ -1,4 +1,9 @@
 {
+  "C_Cpp.intelliSenseEngine": "Disabled",
+  "C_Cpp.autocomplete": "Disabled",
+  "C_Cpp.errorSquiggles": "Disabled",
+  "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+  "clangd.onConfigChanged": "restart",
   // The prefix that is used for each comment line except for first and last.
   "doxdocgen.c.commentPrefix": " * ",
   // Smart text snippet for factory methods/functions.
@@ -156,10 +161,5 @@
     "variant.h": "c",
     "stdint.h": "c",
     "stdint-gcc.h": "c"
-  },
-  "C_Cpp.intelliSenseEngine": "Disabled",
-  "C_Cpp.autocomplete": "Disabled",
-  "C_Cpp.errorSquiggles": "Disabled",
-  "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
-  "clangd.onConfigChanged": "restart"
+  }
 }
