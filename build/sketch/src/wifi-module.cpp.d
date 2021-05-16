@@ -1,6 +1,6 @@
 c:\source\repos\ed-irrigation\build\sketch\src\wifi-module.cpp.o: \
  c:\source\repos\ed-irrigation\build\sketch\src\wifi-module.cpp \
- c:\source\repos\ed-irrigation\build\sketch\src\wifi-module.hpp \
+ c:\source\repos\ed-irrigation\build\sketch\include\wifi-module.hpp \
  C:\Users\falve\AppData\Local\Arduino15\packages\arduino\hardware\samd\1.8.11\cores\arduino/Arduino.h \
  C:\Users\falve\AppData\Local\Arduino15\packages\arduino\hardware\samd\1.8.11\cores\arduino/api/ArduinoAPI.h \
  C:\Users\falve\AppData\Local\Arduino15\packages\arduino\hardware\samd\1.8.11\cores\arduino/api/Binary.h \

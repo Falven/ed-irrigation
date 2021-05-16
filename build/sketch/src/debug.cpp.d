@@ -1,7 +1,7 @@
 c:\source\repos\ed-irrigation\build\sketch\src\debug.cpp.o: \
  c:\source\repos\ed-irrigation\build\sketch\src\debug.cpp \
- c:\source\repos\ed-irrigation\build\sketch\src\debug.hpp \
- c:\source\repos\ed-irrigation\build\sketch\src\logger.hpp \
+ c:\source\repos\ed-irrigation\build\sketch\include\debug.hpp \
+ c:\source\repos\ed-irrigation\build\sketch\include\logger.hpp \
  C:\Users\falve\AppData\Local\Arduino15\packages\arduino\hardware\samd\1.8.11\cores\arduino/USB/USBAPI.h \
  C:\Users\falve\AppData\Local\Arduino15\packages\arduino\hardware\samd\1.8.11\cores\arduino/Arduino.h \
  C:\Users\falve\AppData\Local\Arduino15\packages\arduino\hardware\samd\1.8.11\cores\arduino/api/ArduinoAPI.h \
@@ -125,4 +125,5 @@ c:\source\repos\ed-irrigation\build\sketch\src\debug.cpp.o: \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\boost_1_76_0/boost/current_function.hpp \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\boost_1_76_0/boost/cstdint.hpp \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\boost_1_76_0/boost/container_hash/hash_fwd.hpp \
- C:\Users\falve\OneDrive\Documents\Arduino\libraries\oprintstream\src/oprintstream.hpp
+ C:\Users\falve\OneDrive\Documents\Arduino\libraries\oprintstream\src/oprintstream.hpp \
+ c:\source\repos\ed-irrigation\build\sketch\src\logger.hpp

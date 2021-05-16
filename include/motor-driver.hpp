@@ -25,7 +25,7 @@ namespace ad {
  */
 class MotorDriver {
  public:
-  static const uint32_t kMinBrakeTime = 100UL;
+  constexpr static const uint32_t kMinBrakeTime = 100UL;
 
   /**
    * @brief Construct a new Motor Driver object

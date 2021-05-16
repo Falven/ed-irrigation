@@ -1,7 +1,7 @@
 #line 1 "c:\\source\\repos\\ed-irrigation\\src\\wifi-module.cpp"
 // "Copyright 2021 Francisco Aguilera"
 
-#include "wifi-module.hpp"
+#include "../include/wifi-module.hpp"
 
 #include <Arduino.h>
 #include <SPI.h>

@@ -4463,44 +4463,44 @@ OUTPUT(c:\source\repos\ed-irrigation\build/ed-irrigation.ino.elf elf32-littlearm
  .debug_ranges  0x000034c8       0x18 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(main.cpp.o)
  .debug_ranges  0x000034e0       0x18 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(new.cpp.o)
 
-.debug_line     0x00000000    0x17f87
- .debug_line    0x00000000      0xf16 c:\source\repos\ed-irrigation\build\sketch\ed-irrigation.ino.cpp.o
- .debug_line    0x00000f16      0xca3 c:\source\repos\ed-irrigation\build\sketch\src\debug.cpp.o
- .debug_line    0x00001bb9     0x1158 c:\source\repos\ed-irrigation\build\sketch\src\http-parser.cpp.o
- .debug_line    0x00002d11     0x17f7 c:\source\repos\ed-irrigation\build\sketch\src\http-server.cpp.o
- .debug_line    0x00004508      0xd91 c:\source\repos\ed-irrigation\build\sketch\src\motor-driver.cpp.o
- .debug_line    0x00005299      0xf98 c:\source\repos\ed-irrigation\build\sketch\src\wifi-module.cpp.o
- .debug_line    0x00006231     0x16f8 c:\source\repos\ed-irrigation\build\libraries\llhttp\c\llhttp.c.o
- .debug_line    0x00007929      0x6f1 c:\source\repos\ed-irrigation\build\libraries\llhttp\native\api.c.o
- .debug_line    0x0000801a      0x34d c:\source\repos\ed-irrigation\build\libraries\llhttp\native\http.c.o
- .debug_line    0x00008367      0xadb c:\source\repos\ed-irrigation\build\libraries\SPI\SPI.cpp.o
- .debug_line    0x00008e42      0xc0c c:\source\repos\ed-irrigation\build\libraries\WiFiNINA\WiFi.cpp.o
- .debug_line    0x00009a4e      0xb15 c:\source\repos\ed-irrigation\build\libraries\WiFiNINA\WiFiClient.cpp.o
- .debug_line    0x0000a563      0x91b c:\source\repos\ed-irrigation\build\libraries\WiFiNINA\WiFiServer.cpp.o
- .debug_line    0x0000ae7e      0x4e5 c:\source\repos\ed-irrigation\build\libraries\WiFiNINA\utility\WiFiSocketBuffer.cpp.o
- .debug_line    0x0000b363      0xe84 c:\source\repos\ed-irrigation\build\libraries\WiFiNINA\utility\server_drv.cpp.o
- .debug_line    0x0000c1e7      0xbe1 c:\source\repos\ed-irrigation\build\libraries\WiFiNINA\utility\spi_drv.cpp.o
- .debug_line    0x0000cdc8     0x17be c:\source\repos\ed-irrigation\build\libraries\WiFiNINA\utility\wifi_drv.cpp.o
- .debug_line    0x0000e586      0x84a c:\source\repos\ed-irrigation\build\core\variant.cpp.o
- .debug_line    0x0000edd0      0x3d5 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(cortex_handlers.c.o)
- .debug_line    0x0000f1a5      0x657 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(delay.c.o)
- .debug_line    0x0000f7fc       0xb2 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(hooks.c.o)
- .debug_line    0x0000f8ae      0x4b3 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(startup.c.o)
- .debug_line    0x0000fd61      0x645 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(wiring.c.o)
- .debug_line    0x000103a6      0x753 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(wiring_analog.c.o)
- .debug_line    0x00010af9      0x5aa c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(wiring_digital.c.o)
- .debug_line    0x000110a3      0x592 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(wiring_private.c.o)
- .debug_line    0x00011635      0x821 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(Reset.cpp.o)
- .debug_line    0x00011e56      0xd67 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(SERCOM.cpp.o)
- .debug_line    0x00012bbd      0xb56 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(CDC.cpp.o)
- .debug_line    0x00013713     0x1370 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(USBCore.cpp.o)
- .debug_line    0x00014a83      0xb71 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(Uart.cpp.o)
- .debug_line    0x000155f4      0x566 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(IPAddress.cpp.o)
- .debug_line    0x00015b5a      0x2b8 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(PluggableUSB.cpp.o)
- .debug_line    0x00015e12      0x861 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(Print.cpp.o)
- .debug_line    0x00016673      0xe45 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(String.cpp.o)
- .debug_line    0x000174b8      0x74d c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(main.cpp.o)
- .debug_line    0x00017c05      0x382 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(new.cpp.o)
+.debug_line     0x00000000    0x18049
+ .debug_line    0x00000000      0xf1a c:\source\repos\ed-irrigation\build\sketch\ed-irrigation.ino.cpp.o
+ .debug_line    0x00000f1a      0xcc9 c:\source\repos\ed-irrigation\build\sketch\src\debug.cpp.o
+ .debug_line    0x00001be3     0x117e c:\source\repos\ed-irrigation\build\sketch\src\http-parser.cpp.o
+ .debug_line    0x00002d61     0x181d c:\source\repos\ed-irrigation\build\sketch\src\http-server.cpp.o
+ .debug_line    0x0000457e      0xdb7 c:\source\repos\ed-irrigation\build\sketch\src\motor-driver.cpp.o
+ .debug_line    0x00005335      0xfbe c:\source\repos\ed-irrigation\build\sketch\src\wifi-module.cpp.o
+ .debug_line    0x000062f3     0x16f8 c:\source\repos\ed-irrigation\build\libraries\llhttp\c\llhttp.c.o
+ .debug_line    0x000079eb      0x6f1 c:\source\repos\ed-irrigation\build\libraries\llhttp\native\api.c.o
+ .debug_line    0x000080dc      0x34d c:\source\repos\ed-irrigation\build\libraries\llhttp\native\http.c.o
+ .debug_line    0x00008429      0xadb c:\source\repos\ed-irrigation\build\libraries\SPI\SPI.cpp.o
+ .debug_line    0x00008f04      0xc0c c:\source\repos\ed-irrigation\build\libraries\WiFiNINA\WiFi.cpp.o
+ .debug_line    0x00009b10      0xb15 c:\source\repos\ed-irrigation\build\libraries\WiFiNINA\WiFiClient.cpp.o
+ .debug_line    0x0000a625      0x91b c:\source\repos\ed-irrigation\build\libraries\WiFiNINA\WiFiServer.cpp.o
+ .debug_line    0x0000af40      0x4e5 c:\source\repos\ed-irrigation\build\libraries\WiFiNINA\utility\WiFiSocketBuffer.cpp.o
+ .debug_line    0x0000b425      0xe84 c:\source\repos\ed-irrigation\build\libraries\WiFiNINA\utility\server_drv.cpp.o
+ .debug_line    0x0000c2a9      0xbe1 c:\source\repos\ed-irrigation\build\libraries\WiFiNINA\utility\spi_drv.cpp.o
+ .debug_line    0x0000ce8a     0x17be c:\source\repos\ed-irrigation\build\libraries\WiFiNINA\utility\wifi_drv.cpp.o
+ .debug_line    0x0000e648      0x84a c:\source\repos\ed-irrigation\build\core\variant.cpp.o
+ .debug_line    0x0000ee92      0x3d5 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(cortex_handlers.c.o)
+ .debug_line    0x0000f267      0x657 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(delay.c.o)
+ .debug_line    0x0000f8be       0xb2 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(hooks.c.o)
+ .debug_line    0x0000f970      0x4b3 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(startup.c.o)
+ .debug_line    0x0000fe23      0x645 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(wiring.c.o)
+ .debug_line    0x00010468      0x753 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(wiring_analog.c.o)
+ .debug_line    0x00010bbb      0x5aa c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(wiring_digital.c.o)
+ .debug_line    0x00011165      0x592 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(wiring_private.c.o)
+ .debug_line    0x000116f7      0x821 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(Reset.cpp.o)
+ .debug_line    0x00011f18      0xd67 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(SERCOM.cpp.o)
+ .debug_line    0x00012c7f      0xb56 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(CDC.cpp.o)
+ .debug_line    0x000137d5     0x1370 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(USBCore.cpp.o)
+ .debug_line    0x00014b45      0xb71 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(Uart.cpp.o)
+ .debug_line    0x000156b6      0x566 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(IPAddress.cpp.o)
+ .debug_line    0x00015c1c      0x2b8 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(PluggableUSB.cpp.o)
+ .debug_line    0x00015ed4      0x861 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(Print.cpp.o)
+ .debug_line    0x00016735      0xe45 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(String.cpp.o)
+ .debug_line    0x0001757a      0x74d c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(main.cpp.o)
+ .debug_line    0x00017cc7      0x382 c:\source\repos\ed-irrigation\build/..\..\..\..\Users\falve\AppData\Local\Temp\arduino-core-cache\core_arduino_samd_mkrwifi1010_87509c5f7a2933a60a52de5ce586772c.a(new.cpp.o)
 
 .debug_str      0x00000000    0x1ff22
  .debug_str     0x00000000     0x9c09 c:\source\repos\ed-irrigation\build\sketch\ed-irrigation.ino.cpp.o

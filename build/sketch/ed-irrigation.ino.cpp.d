@@ -100,9 +100,9 @@ c:\source\repos\ed-irrigation\build\sketch\ed-irrigation.ino.cpp.o: \
  C:\Users\falve\AppData\Local\Arduino15\packages\arduino\hardware\samd\1.8.11\cores\arduino/USB/USB_host.h \
  C:\Users\falve\AppData\Local\Arduino15\packages\arduino\hardware\samd\1.8.11\cores\arduino/USB/samd21_host.h \
  C:\Users\falve\AppData\Local\Arduino15\packages\arduino\hardware\samd\1.8.11\cores\arduino/api/itoa.h \
- c:\source\repos\ed-irrigation\build\sketch\src/arduino_secrets.hpp \
- c:\source\repos\ed-irrigation\build\sketch\src/debug.hpp \
- c:\source\repos\ed-irrigation\build\sketch\src/logger.hpp \
+ c:\source\repos\ed-irrigation\build\sketch\include/arduino_secrets.hpp \
+ c:\source\repos\ed-irrigation\build\sketch\include/debug.hpp \
+ c:\source\repos\ed-irrigation\build\sketch\include/logger.hpp \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\boost_1_76_0/boost_1_76_0.h \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\boost_1_76_0/boost/utility/string_view.hpp \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\boost_1_76_0/boost/config.hpp \
@@ -127,8 +127,8 @@ c:\source\repos\ed-irrigation\build\sketch\ed-irrigation.ino.cpp.o: \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\boost_1_76_0/boost/cstdint.hpp \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\boost_1_76_0/boost/container_hash/hash_fwd.hpp \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\oprintstream\src/oprintstream.hpp \
- c:\source\repos\ed-irrigation\build\sketch\src/http-server.hpp \
- c:\source\repos\ed-irrigation\build\sketch\src/http-parser.hpp \
+ c:\source\repos\ed-irrigation\build\sketch\include/http-server.hpp \
+ c:\source\repos\ed-irrigation\build\sketch\include/http-parser.hpp \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\llhttp\src/llhttp.h \
  C:\Users\falve\AppData\Local\Arduino15\packages\arduino\hardware\samd\1.8.11\libraries\SPI/SPI.h \
  C:\Users\falve\AppData\Local\Arduino15\packages\arduino\hardware\samd\1.8.11\cores\arduino/api/HardwareSPI.h \
@@ -151,5 +151,5 @@ c:\source\repos\ed-irrigation\build\sketch\ed-irrigation.ino.cpp.o: \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\WiFiNINA\src/WiFiUdp.h \
  C:\Users\falve\AppData\Local\Arduino15\packages\arduino\hardware\samd\1.8.11\cores\arduino/api/deprecated/Udp.h \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\WiFiNINA\src/WiFiClient.h \
- c:\source\repos\ed-irrigation\build\sketch\src/wifi-module.hpp \
- c:\source\repos\ed-irrigation\build\sketch\src/motor-driver.hpp
+ c:\source\repos\ed-irrigation\build\sketch\include/wifi-module.hpp \
+ c:\source\repos\ed-irrigation\build\sketch\include/motor-driver.hpp

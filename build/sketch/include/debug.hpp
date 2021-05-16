@@ -9,7 +9,8 @@
 
 #if defined(DEBUG)
 #include "logger.hpp"
-extern falven::ad::Logger debug;
+extern falven::ad::Logger
+    debug;  // NOLINT(cppcoreguidelines-avoid-non-const-global-variables)
 #define DEBUG_BEGIN(baud) debug.begin(baud);
 #define DEBUG_LOCATION()                                            \
   debug << millis() << "ms: " << __FILE__ << ':' << __LINE__ << ' ' \

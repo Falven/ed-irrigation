@@ -1,6 +1,6 @@
 // "Copyright 2021 Francisco Aguilera"
 
-#include "wifi-module.hpp"
+#include "../include/wifi-module.hpp"
 
 #include <Arduino.h>
 #include <SPI.h>

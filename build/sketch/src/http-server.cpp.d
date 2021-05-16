@@ -1,7 +1,7 @@
 c:\source\repos\ed-irrigation\build\sketch\src\http-server.cpp.o: \
  c:\source\repos\ed-irrigation\build\sketch\src\http-server.cpp \
- c:\source\repos\ed-irrigation\build\sketch\src\http-server.hpp \
- c:\source\repos\ed-irrigation\build\sketch\src\http-parser.hpp \
+ c:\source\repos\ed-irrigation\build\sketch\include\http-server.hpp \
+ c:\source\repos\ed-irrigation\build\sketch\include\http-parser.hpp \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\llhttp\src/llhttp.h \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\boost_1_76_0/boost_1_76_0.h \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\boost_1_76_0/boost/utility/string_view.hpp \
@@ -152,4 +152,5 @@ c:\source\repos\ed-irrigation\build\sketch\src\http-server.cpp.o: \
  C:\Users\falve\OneDrive\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson/Configuration.hpp \
  c:\source\repos\ed-irrigation\build\sketch\src\debug.hpp \
  c:\source\repos\ed-irrigation\build\sketch\src\logger.hpp \
- C:\Users\falve\OneDrive\Documents\Arduino\libraries\oprintstream\src/oprintstream.hpp
+ C:\Users\falve\OneDrive\Documents\Arduino\libraries\oprintstream\src/oprintstream.hpp \
+ c:\source\repos\ed-irrigation\build\sketch\src\http-parser.hpp

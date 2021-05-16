@@ -5,16 +5,25 @@
 #define INCLUDE_LOGGER_HPP_
 
 #include <USB/USBAPI.h>
-#include <boost/utility/string_view.hpp>
 #include <boost_1_76_0.h>
+
+#include <boost/utility/string_view.hpp>
 #include <oprintstream.hpp>
 
 namespace falven {
 namespace ad {
 
 class Logger : public OPrintStream<Logger> {
-public:
-  Logger(USBDeviceClass &usb) : OPrintStream(usb) {}
+ public:
+  static auto getInstance() -> Logger & {
+    static Logger instance(USBDevice);
+    return instance;
+  }
+
+  Logger(USBDeviceClass &usb) : OPrintStream<Logger>(usb) {}
+
+  // Logger(Logger &other) : OPrintStream<>(static_cast<Serial_>(other).usb) {}
+
   ~Logger() override = default;
 
   void begin(uint32_t baudRate) {
@@ -38,7 +47,7 @@ public:
   using OPrintStream<Logger>::operator<<;
 };
 
-} // namespace ad
-} // namespace falven
+}  // namespace ad
+}  // namespace falven
 
-#endif // INCLUDE_LOGGER_HPP_
+#endif  // INCLUDE_LOGGER_HPP_

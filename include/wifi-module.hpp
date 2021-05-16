@@ -17,7 +17,7 @@ namespace ad {
  */
 class WifiModule {
  public:
-  static const uint32_t kDefaultConnectionDelay = 10000UL;
+  constexpr static const uint32_t kDefaultConnectionDelay = 10000UL;
 
   WifiModule(const char *ssid, const char *pass, const char *host_name,
              const uint32_t connection_delay = kDefaultConnectionDelay);

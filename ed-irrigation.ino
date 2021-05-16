@@ -2,21 +2,24 @@
 
 #include <Arduino.h>
 
-#include "src/arduino_secrets.hpp"
-#include "src/debug.hpp"
-#include "src/http-server.hpp"
-#include "src/wifi-module.hpp"
-#include "src/motor-driver.hpp"
+#include "include/arduino_secrets.hpp"
+#include "include/debug.hpp"
+#include "include/http-server.hpp"
+#include "include/motor-driver.hpp"
+#include "include/wifi-module.hpp"
 
-using namespace falven::ad;
-
-MotorDriver pumpDriver(SECRET_MOTOR_IN1_PIN, SECRET_MOTOR_IN2_PIN,
-                       SECRET_MOTOR_PWM_PIN);
-WifiModule wiFiModule(SECRET_SSID, SECRET_PASSWORD, SECRET_HOSTNAME);
-HttpServer irrigationServer(SECRET_SERVER_PORT);
+falven::ad::HttpServer
+    irrigationServer(  // NOLINT(cppcoreguidelines-avoid-non-const-global-variables)
+        SECRET_SERVER_PORT);
+falven::ad::MotorDriver
+    pumpDriver(  // NOLINT(cppcoreguidelines-avoid-non-const-global-variables)
+        SECRET_MOTOR_IN1_PIN, SECRET_MOTOR_IN2_PIN, SECRET_MOTOR_PWM_PIN);
+falven::ad::WifiModule
+    wiFiModule(  // NOLINT(cppcoreguidelines-avoid-non-const-global-variables)
+        SECRET_SSID, SECRET_PASSWORD, SECRET_HOSTNAME);
 
 void setup() {
-  DEBUG_BEGIN(9600u);
+  DEBUG_BEGIN(9600U);
   DEBUG_LOCATION();
 
   pumpDriver.SetupPins();
