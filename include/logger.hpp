@@ -15,17 +15,14 @@ namespace ad {
 class Logger : public OPrintStream<Logger> {
  public:
   static auto getInstance() -> Logger & {
-    static Logger instance(USBDevice);
+    static Logger instance(  // NOLINT(bugprone-dynamic-static-initializers)
+        USBDevice);
     return instance;
   }
 
-  Logger(USBDeviceClass &usb) : OPrintStream<Logger>(usb) {}
+  explicit Logger(USBDeviceClass &usb) : OPrintStream<Logger>(usb) {}
 
-  // Logger(Logger &other) : OPrintStream<>(static_cast<Serial_>(other).usb) {}
-
-  ~Logger() override = default;
-
-  void begin(uint32_t baudRate) {
+  static void begin(uint32_t baudRate) {
     Serial_::begin(baudRate);
     while (!Serial) {
     }
@@ -38,7 +35,7 @@ class Logger : public OPrintStream<Logger> {
    * @return OPrintStream& Returns the OPrintStream reference for
    * continuation.
    */
-  OPrintStream &operator<<(const boost::string_view &arg) {
+  auto operator<<(const boost::string_view &arg) -> OPrintStream<Logger> & {
     print(arg.data());
     return *this;
   }

@@ -1,5 +1,7 @@
 // "Copyright 2021 Francisco Aguilera"
 
+#include <Arduino.h>
+
 #ifndef INCLUDE_DEBUG_HPP_
 #define INCLUDE_DEBUG_HPP_
 
@@ -9,14 +11,14 @@
 #if defined(DEBUG)
 #include "logger.hpp"
 extern falven::ad::Logger
-    debug;  // NOLINT(cppcoreguidelines-avoid-non-const-global-variables)
+    debug;  // NOLINT(cppcoreguidelines-avoid-non-const-global-variables, bugprone-dynamic-static-initializers)
 #define DEBUG_BEGIN(baud) debug.begin(baud);
 #define DEBUG_LOCATION()                                            \
   debug << millis() << "ms: " << __FILE__ << ':' << __LINE__ << ' ' \
-        << __PRETTY_FUNCTION__ << endl;
+        << __PRETTY_FUNCTION__ << falven::ad::endl;
 #define DEBUG_PRINTLN(str)                                          \
   debug << millis() << "ms: " << __FILE__ << ':' << __LINE__ << ' ' \
-        << __PRETTY_FUNCTION__ << ' ' << str << endl;
+        << __PRETTY_FUNCTION__ << ' ' << (str) << falven::ad::endl;
 #elif defined(TEST)
 #include <iostream>
 #define DEBUG_LOCATION()                                                 \
@@ -24,7 +26,7 @@ extern falven::ad::Logger
             << std::endl;
 #define DEBUG_PRINTLN(str)                                               \
   std::cout << __FILE__ << ':' << __LINE__ << ' ' << __PRETTY_FUNCTION__ \
-            << ' ' << str << std::endl;
+            << ' ' << (str) << std::endl;
 #else
 #define DEBUG_BEGIN(baud)
 #define DEBUG_LOCATION()
