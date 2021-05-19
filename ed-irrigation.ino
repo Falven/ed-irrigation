@@ -2,11 +2,11 @@
 
 #include <Arduino.h>
 
-#include "include/arduino_secrets.hpp"
-#include "include/debug.hpp"
-#include "include/http-server.hpp"
-#include "include/motor-driver.hpp"
-#include "include/wifi-module.hpp"
+#include "arduino_secrets.hpp"
+#include "debug.hpp"
+#include "http-server.hpp"
+#include "motor-driver.hpp"
+#include "wifi-module.hpp"
 
 falven::ad::HttpServer
     irrigationServer(  // NOLINT(cppcoreguidelines-avoid-non-const-global-variables)

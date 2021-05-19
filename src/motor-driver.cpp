@@ -1,6 +1,6 @@
 // "Copyright 2021 Francisco Aguilera"
 
-#include "../include/motor-driver.hpp"
+#include "motor-driver.hpp"
 
 #include <Arduino.h>
 

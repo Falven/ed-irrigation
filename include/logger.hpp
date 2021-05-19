@@ -15,15 +15,14 @@ namespace ad {
 class Logger : public OPrintStream<Logger> {
  public:
   static auto getInstance() -> Logger & {
-    static Logger instance(  // NOLINT(bugprone-dynamic-static-initializers)
-        USBDevice);
+    static Logger instance(USBDevice); // NOLINT(bugprone-dynamic-static-initializers)
     return instance;
   }
 
   explicit Logger(USBDeviceClass &usb) : OPrintStream<Logger>(usb) {}
 
-  static void begin(uint32_t baudRate) {
-    Serial_::begin(baudRate);
+  void begin(uint32_t baudRate) {
+    static_cast<Serial_ *>(this)->begin(baudRate);
     while (!Serial) {
     }
   }

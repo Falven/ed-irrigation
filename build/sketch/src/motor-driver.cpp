@@ -1,7 +1,7 @@
 #line 1 "c:\\source\\repos\\ed-irrigation\\src\\motor-driver.cpp"
 // "Copyright 2021 Francisco Aguilera"
 
-#include "../include/motor-driver.hpp"
+#include "motor-driver.hpp"
 
 #include <Arduino.h>
 
