@@ -5,5 +5,8 @@
     "output": "./build",
     "arduino.defaultBaudRate": 9600,
     "port": "COM3",
-    "postbuild": "node ./scripts/postbuild.js"
+    "buildPreferences": [
+        ["build.extra_flags", "-Ic:/source/repos/ed-irrigation/include/"]
+    ],
+    "postbuild": "node ./scripts/postbuild.js %VSCA_BUILD_DIR%"
 }
