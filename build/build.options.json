@@ -1,5 +1,5 @@
 {
-  "additionalFiles": "..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..",
+  "additionalFiles": "..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..,..\\..",
   "builtInLibrariesFolders": "C:\\Program Files (x86)\\Arduino\\libraries",
   "builtInToolsFolders": "",
   "compiler.optimization_flags": "-Os",

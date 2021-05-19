@@ -4,5 +4,6 @@
     "arduino.logLevel": "verbose",
     "output": "./build",
     "arduino.defaultBaudRate": 9600,
-    "port": "COM3"
+    "port": "COM3",
+    "postbuild": "node ./scripts/postbuild.js"
 }

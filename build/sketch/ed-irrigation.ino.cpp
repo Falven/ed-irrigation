@@ -19,11 +19,6 @@ falven::ad::WifiModule
     wiFiModule(  // NOLINT(cppcoreguidelines-avoid-non-const-global-variables)
         SECRET_SSID, SECRET_PASSWORD, SECRET_HOSTNAME);
 
-#line 21 "c:\\source\\repos\\ed-irrigation\\ed-irrigation.ino"
-void setup();
-#line 30 "c:\\source\\repos\\ed-irrigation\\ed-irrigation.ino"
-void loop();
-#line 21 "c:\\source\\repos\\ed-irrigation\\ed-irrigation.ino"
 void setup() {
   DEBUG_BEGIN(9600U);
   DEBUG_LOCATION();
