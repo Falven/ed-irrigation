@@ -1,4 +1,6 @@
-# ad-irrigation
+# ed-irrigation
+
+WIP
 
 My web-connected, [Arduino][0]-powered, reservoir-drip-irrigation, system.
 
